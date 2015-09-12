@@ -13,13 +13,16 @@
     <title>藏品浏览</title>
 </head>
 
-<body>
+<body style="padding-bottom:100px;">
 		<img src="../img/close-btn.png"  class="close-back" style="width:10%;position:fixed;top:60px;right:20px;z-index:2;">
-		<img src="../img/1.png" class="img-responsive">
+		<img  id="img-detail" class="img-responsive">
 		
 
     <script src="../ui/jquery/jquery.min.js"></script>
     <script src="../js/index.js"></script>
+    <script >
+        $("#img-detail").attr("src","../img/detail/"+RequestParameter()["imgid"]);
+    </script>
 </body>
 
 </html>

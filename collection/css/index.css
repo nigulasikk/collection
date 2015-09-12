@@ -2,7 +2,7 @@
 .back,.item{cursor:pointer}
 .top{background:grey;width:100%}
 .pin-introduce-title{font-weight:700;line-height:20px;font-size:15px}
-.pin-introduce-info{line-height:1pc;height:5pc;font-size:9pt;padding-bottom:4px;color:#818a91}
+.pin-introduce-info{line-height:1pc;height:98px;font-size:9pt;padding-bottom:4px;color:#818a91}
 .item{margin-top:20px}
 .fix-top{width:100%;height:40px;background:rgba(255,255,255,.63);position:fixed}
 .back{background:#e13f30;color:#fff;text-align:center;margin-left:20px;height:29px;line-height:29px;width:68px;font-size:14px;border-radius:3px;margin-top:5px}

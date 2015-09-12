@@ -1,0 +1,48 @@
+.top{
+    background: grey;
+    width:100%;
+}
+.pin-introduce-title{
+      font-weight: bold;
+  line-height: 20px;
+  font-size: 15px;
+  padding-top: 4px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pin-introduce-info{
+  line-height: 16px;
+  height: 80px;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:#818a91;
+}
+.item{
+    margin-top:20px;
+    cursor: pointer;
+}
+.fix-top{
+    width:100%;
+    height:40px;
+      background: rgba(255, 255, 255, 0.63);
+
+    position: fixed;
+}
+.back{
+    cursor: pointer;
+  background: rgb(225,63,48);
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  height: 29px;
+  line-height: 29px;
+  width: 68px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-top:5px;
+}
